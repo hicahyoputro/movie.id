@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Manga 18+ - Manga Reader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Age Verification Modal -->
+    <div id="age-verification-modal" class="modal">
+        <div class="modal-content">
+            <h2>Konfirmasi Usia</h2>
+            <p>Halaman ini berisi konten dewasa. Apakah Anda berusia di atas 18 tahun?</p>
+            <div class="modal-buttons">
+                <button id="confirm-age">Ya, Saya Berusia Di Atas 18 Tahun</button>
+                <button id="deny-age">Tidak, Saya Berusia Di Bawah 18 Tahun</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Zession</a>
+            <h1>Manga Reader</h1>
+            <p>Daftar Lengkap Manga 18+</p>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <section id="search-bar">
+        <div class="container">
+            <input type="text" id="search-input" placeholder="Cari manga...">
+            <button id="search-button">Cari</button>
+        </div>
+    </section>
+
+    <!-- Daftar Manga 18+ Lengkap -->
+    <section id="full-manga-18-list">
+        <div class="container">
+            <h2>Daftar Lengkap Manga 18+</h2>
+            <div id="full-manga-18-grid" class="grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Manga Reader. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZSManga</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Zession</a>
+            <h1>Manga Reader</h1>
+            <p>Platform baca manga online terbaik!</p>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <section id="search-bar">
+        <div class="container">
+            <input type="text" id="search-input" placeholder="Cari manga...">
+            <button id="search-button">Cari</button>
+        </div>
+    </section>
+
+    <!-- Rekomendasi Manga -->
+    <section id="recommended-manga">
+        <div class="container">
+            <h2>Rekomendasi Manga</h2>
+            <div id="recommended-grid" class="grid"></div>
+        </div>
+        <div class="container">
+            <h2>Rekomendasi Manga 18+</h2>
+            <div id="recommended-grid18" class="grid"></div>
+        </div>
+    </section>
+
+    <!-- Daftar Manga -->
+    <section id="manga-list">
+        <div class="container">
+            <h2>Daftar Manga</h2>
+            <div id="manga-grid" class="grid"></div>
+            <a href="daftar-manga.html" class="view-all-button">View All Manga Umum</a>
+            <a href="daftar-manga-18.html" class="view-all-button age-restricted">View All Manga 18+</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Manga Reader. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
